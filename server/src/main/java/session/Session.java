@@ -7,7 +7,7 @@ import entity.user.User;
 import exceptions.game.InvalidItemObtainedException;
 import exceptions.game.NotEnoughPlayerException;
 import exceptions.roommanagement.*;
-import exceptions.uservalidation.RegisterPasswordMismatchException;
+import exceptions.uservalidation.*;
 import message.csmessage.CsMessage;
 import message.csmessage.chat.CsChat;
 import message.csmessage.game.CsCharacterState;

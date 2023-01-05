@@ -2,8 +2,8 @@ package entity.user;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import entity.game.Game;
-import exceptions.roommanagement.WrongLoginPasswordException;
-import exceptions.roommanagement.WrongLoginUsernameException;
+import exceptions.uservalidation.WrongLoginPasswordException;
+import exceptions.uservalidation.WrongLoginUsernameException;
 import lombok.Getter;
 import message.scmessage.ScMessage;
 import session.Session;
